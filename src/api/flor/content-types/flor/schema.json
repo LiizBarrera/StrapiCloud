@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flors",
+  "info": {
+    "singularName": "flor",
+    "pluralName": "flors",
+    "displayName": "Flor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "string"
+    }
+  }
+}
