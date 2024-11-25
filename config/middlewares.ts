@@ -5,7 +5,7 @@ export default [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      origin: '*', // Puedes limitarlo a ciertos dominios si lo prefieres
+      origin: '*', // Puedes limitarlo a ciertos dominios 
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'HEAD', 'OPTIONS'],
     },
   },
