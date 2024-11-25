@@ -5,9 +5,25 @@ import { factories } from '@strapi/strapi';
 
 export default factories.createCoreRouter('api::flor.flor', {
   config: {
+    find: {
+      policies: [],
+      middlewares: [],
+    },
+    findOne: {
+      policies: [],
+      middlewares: [],
+    },
+    create: {
+      policies: [],
+      middlewares: [],
+    },
+    update: {
+      policies: [],
+      middlewares: [],
+    },
     delete: {
-      policies: [], // Puedes agregar políticas aquí si es necesario
-      middlewares: [], // Puedes agregar middlewares personalizados aquí si es necesario
+      policies: [],
+      middlewares: [],
     },
   },
 });
